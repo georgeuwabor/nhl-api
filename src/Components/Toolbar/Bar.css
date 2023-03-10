@@ -1,0 +1,32 @@
+.baar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #000000;
+  font-family: "Sintony", Arial, sans-serif;
+  height: 56px;
+  padding: 50px;
+}
+
+.baar-nav {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.baar_icon a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.baar_icon {
+  margin-left: 1.5rem;
+}
+
+.baar_icon a:hover,
+.baar_icon a:active {
+  color: orange;
+}

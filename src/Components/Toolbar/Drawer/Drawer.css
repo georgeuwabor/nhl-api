@@ -1,0 +1,9 @@
+.drawer-container {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+  /* background: red; */
+}

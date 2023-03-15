@@ -16,7 +16,7 @@
   padding: 0 1rem;
 }
 
-.baar_icon a {
+.baar_icon p {
   color: #ffffff;
   text-decoration: none;
   font-size: 1.5rem;
@@ -26,7 +26,7 @@
   margin-left: 1.5rem;
 }
 
-.baar_icon a:hover,
-.baar_icon a:active {
+.baar_icon p:hover,
+.baar_icon p:active {
   color: orange;
 }

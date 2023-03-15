@@ -1,20 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Bar.css";
-import Drawer from "../SideDrawer/Drawer";
+import Drawer from "./Drawer/Drawer";
 
 const Bar = (props) => {
+  const [drawer, setDrawer] = useState(false);
+
   return (
     <>
       <header className="baar">
         <nav className="baar-nav">
-          <div>
-            <Drawer />
-          </div>
           <div className="baar_icon">
-            <a href="/">NHL</a>
+            <p onClick={() => setDrawer(!drawer)}>NHL</p>
           </div>
         </nav>
       </header>
+      {drawer ? <Drawer /> : ""}
     </>
   );
 };
